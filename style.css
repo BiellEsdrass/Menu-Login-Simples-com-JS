@@ -1,0 +1,101 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --color-primary: #0A0E19; 
+    --color-segundary: #EF0E3D;
+}
+
+body{
+    background-image: url(imgs/menu.jpg);
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 100%;
+    z-index: -1;
+
+    
+}
+
+.formulario{
+    background-color: #0a0e19c3;
+    position: absolute;
+    height: 27em;
+    width: 30em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.759);
+}
+.formulario h1{
+    color: white;
+    margin: 10px;
+    margin-bottom: 30px;
+    transition: all .7s;
+    cursor: pointer;
+}
+.formulario h1:hover{
+    color: #EF0E3D;
+    letter-spacing: 10px;
+}
+
+.email, .senha{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width:70%;
+    outline: none;
+    border: 2px solid  var(--color-segundary);
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all .5s;
+    color: white;
+}
+
+.email::placeholder, .senha::placeholder{
+    color: white;
+}
+.email:focus {
+    width: 80%;
+    transition: all .5s;
+}
+.senha:focus {
+    width: 80%;
+    transition: all .5s;
+}
+
+
+.enviar{
+    margin-top: 80px;
+    width: 40%;
+    height: 3em;
+    background-color: transparent;
+    border: 2px solid var(--color-segundary);
+    color: white;
+    border-radius: 10px;
+    transition: all .5s;
+    cursor: pointer;
+    letter-spacing: 3px;
+}
+
+.enviar:hover{
+    background-color: var(--color-segundary);
+    letter-spacing: 5px;
+}
+
+.img{
+    height: 1.6em;
+    position: absolute;
+    z-index: 2;
+    top: 10.5em;
+    left: 73%;
+}
