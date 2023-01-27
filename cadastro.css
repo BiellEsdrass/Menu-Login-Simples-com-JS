@@ -77,8 +77,8 @@ body{
 
 .esqueceu{
     position: absolute;
-    left: 6rem;
-    top: 13rem;
+    left: 6.1rem;
+    top: 19rem;
     color: rgba(255, 255, 255, 0.699);
     font-size: 13px;
 }
@@ -116,6 +116,6 @@ body{
     height: 1.6em;
     position: absolute;
     z-index: 2;
-    top: 38%;
+    top: 42%;
     left: 73%;
 }
