@@ -116,6 +116,26 @@ body{
     height: 1.6em;
     position: absolute;
     z-index: 2;
-    top: 38%;
+    bottom: 55%;
     left: 73%;
+}
+
+.cadastro{
+    color: rgba(255, 255, 255, 0.713);
+    font-size: 13px;
+    position: relative;
+    right: 3rem;
+}
+
+
+
+.cadastro a{
+    color: white;
+    text-decoration: none;
+    margin-left: 11px;
+    transition: all .5s;
+}
+.cadastro a:hover{
+    color: var(--color-segundary);
+   
 }
